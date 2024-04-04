@@ -24,7 +24,7 @@ Execute the following steps to set up the project environment:
    Clone this repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/BasharAZ1/flask_docker_example.git
+   git clone https://github.com/BasharAZ1/flask_docker_example
    ```
 
 2. **Start the Application with Docker Compose**
@@ -62,6 +62,10 @@ Execute the following steps to set up the project environment:
 5. **Adding Users with Postman**
 
    You can now use Postman to add users to your database. Configure Postman to send a POST request to the endpoint that handles user creation. Make sure to include the user data in the request body as JSON.
+send POST request with"/users" and json file with "name":yourname
+
+
+
 
 ## Using the Application
 
